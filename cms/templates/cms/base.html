@@ -1,0 +1,22 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home | UTokyo Project Hub</title>
+    <!--
+    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="{% static 'css/custom.scss' %}">
+    -->
+</head>
+<body>
+    <div class="">
+        <!-- logo etc -->
+        <h1>UTokyo Project Hub</h1>
+    </div>
+    <div class="">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>
